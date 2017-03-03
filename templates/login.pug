@@ -1,0 +1,18 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title Nodemon rules
+		link(rel='stylesheet', href='/css/foundation.css')
+		link(rel='stylesheet', href='/css/main.css')
+	body
+		if error
+			p(class='error')= error
+
+		form(method='POST', action='/login')
+			p Email
+			input(type='email', name='email')
+			p Contraseña
+			input(type='pasword', name='password')
+
+			button(class='button') agregar

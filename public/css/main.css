@@ -1,0 +1,13 @@
+body {
+	box-sizing: border-box;
+	padding: 1rem;
+
+}
+.error {
+	border: 1px solid: red;
+	box-sizing: border-box;
+	color: red;
+	display: block;
+	padding: 4px;
+	margin: 0 0 16px 0; 
+}
